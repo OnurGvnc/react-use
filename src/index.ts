@@ -38,8 +38,7 @@ export { default as useInterval } from './useInterval';
 export { default as useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
 export { default as useKey } from './useKey';
 export { default as createBreakpoint } from './createBreakpoint';
-// not exported because of peer dependency
-// export { default as useKeyboardJs } from './useKeyboardJs';
+export { default as useKeyboardJs } from './useKeyboardJs';
 export { default as useKeyPress } from './useKeyPress';
 export { default as useKeyPressEvent } from './useKeyPressEvent';
 export { default as useLatest } from './useLatest';
@@ -114,3 +113,14 @@ export { useFirstMountState } from './useFirstMountState';
 export { default as useSet } from './useSet';
 export { createGlobalState } from './createGlobalState';
 export { useHash } from './useHash';
+
+// customs
+export { default as useConst } from './useConst';
+export { default as useConstCallback } from './useConstCallback';
+export { default as useId } from './useId';
+export { default as useMergedRefs } from './useMergedRefs';
+export { default as useControllableValue } from './useControllableValue';
+export { default as useLazyRef } from './useLazyRef';
+export { default as useLoadScript } from './useLoadScript';
+export { default as useInput } from './useInput';
+export { default as useToggleBodyClass } from './useToggleBodyClass';

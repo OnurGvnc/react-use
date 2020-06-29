@@ -1,6 +1,7 @@
 {
-  "name": "@zedflowlab/react-use",
-  "version": "15.3.2-0",
+  "name": "react-use",
+  "private": "true",
+  "version": "15.3.0-1",
   "description": "Collection of React Hooks",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -11,14 +12,6 @@
   ],
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zedflowlab/npm-registry.git",
-    "directory": "/packages/packagename"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@zedflowlab"
-  },
   "scripts": {
     "start": "yarn storybook",
     "test": "jest --maxWorkers 2",
@@ -36,8 +29,7 @@
     "storybook:build": "build-storybook",
     "storybook:upload": "gh-pages -d storybook-static --git \"$(which git)\"",
     "storybook:clean": "rimraf storybook-static",
-    "release": "semantic-release",
-    "pub": "npm version patch --force && npm publish"
+    "release": "semantic-release"
   },
   "husky": {
     "hooks": {

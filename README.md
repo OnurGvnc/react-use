@@ -46,11 +46,14 @@
 - **custom**
 
   - [`useClock`](./src/useClock.ts)
+  - [`useLazyRef`](./src/useLazyRef.ts)
+  - [`useLoadScript`](./src/useLoadScript.ts)
+  - [`useInput`](./src/useInput.ts)
+  - [`useToggleBodyClass`](./src/useToggleBodyClass.ts)
 
 - **microsoft @uifabric/react-hooks**
 
   - [`useBoolean`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useBoolean.ts)
-  - [`useConst`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConst.ts)
   - [`useConst`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConst.ts)
   - [`useConstCallback`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConstCallback.ts)
   - [`useId`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useId.ts)
