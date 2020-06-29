@@ -43,11 +43,26 @@
   <br />
 </div>
 
-- [**custom**]
+- **custom**
+
   - [`useClock`](./src/useClock.ts)
 
+- **microsoft @uifabric/react-hooks**
+
+  - [`useBoolean`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useBoolean.ts)
+  - [`useConst`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConst.ts)
+  - [`useConst`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConst.ts)
+  - [`useConstCallback`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useConstCallback.ts)
+  - [`useId`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useId.ts)
+  - [`useMergedRefs`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useMergedRefs.ts)
+  - [`useControllableValue`](https://github.com/microsoft/fluentui/blob/master/packages/react-hooks/src/useControllableValue.ts)
+
+- **todo**
+
+  - https://github.com/KATT/use-is-typing/blob/master/src/index.tsx
 
 - [**Sensors**](./docs/Sensors.md)
+
   - [`useBattery`](./docs/useBattery.md) &mdash; tracks device battery state. [![][img-demo]](https://codesandbox.io/s/qlvn662zww)
   - [`useGeolocation`](./docs/useGeolocation.md) &mdash; tracks geo location state of user's device. [![][img-demo]](https://streamich.github.io/react-use/?path=/story/sensors-usegeolocation--demo)
   - [`useHover` and `useHoverDirty`](./docs/useHover.md) &mdash; tracks mouse hover state of some element. [![][img-demo]](https://codesandbox.io/s/zpn583rvx)
@@ -76,7 +91,9 @@
   - [`useScrollbarWidth`](./docs/useScrollbarWidth.md) &mdash; detects browser's native scrollbars width. [![][img-demo]](https://streamich.github.io/react-use/?path=/story/sensors-usescrollbarwidth--demo)
     <br/>
     <br/>
+
 - [**UI**](./docs/UI.md)
+
   - [`useAudio`](./docs/useAudio.md) &mdash; plays audio and exposes its controls. [![][img-demo]](https://codesandbox.io/s/2o4lo6rqy)
   - [`useClickAway`](./docs/useClickAway.md) &mdash; triggers callback when user clicks outside target area.
   - [`useCss`](./docs/useCss.md) &mdash; dynamically adjusts CSS.
@@ -88,7 +105,9 @@
   - [`useVideo`](./docs/useVideo.md) &mdash; plays video, tracks its state, and exposes playback controls. [![][img-demo]](https://streamich.github.io/react-use/?path=/story/ui-usevideo--demo)
     <br/>
     <br/>
+
 - [**Animations**](./docs/Animations.md)
+
   - [`useRaf`](./docs/useRaf.md) &mdash; re-renders component on each `requestAnimationFrame`.
   - [`useInterval`](./docs/useInterval.md) and [`useHarmonicIntervalFn`](./docs/useHarmonicIntervalFn.md) &mdash; re-renders component on a set interval using `setInterval`.
   - [`useSpring`](./docs/useSpring.md) &mdash; interpolates number over time according to spring dynamics.
@@ -98,7 +117,9 @@
   - [`useUpdate`](./docs/useUpdate.md) &mdash; returns a callback, which re-renders component when called.
     <br/>
     <br/>
+
 - [**Side-effects**](./docs/Side-effects.md)
+
   - [`useAsync`](./docs/useAsync.md), [`useAsyncFn`](./docs/useAsyncFn.md), and [`useAsyncRetry`](./docs/useAsyncRetry.md) &mdash; resolves an `async` function.
   - [`useBeforeUnload`](./docs/useBeforeUnload.md) &mdash; shows browser alert when user try to reload or close the page.
   - [`useCookie`](./docs/useCookie.md) &mdash; provides way to read, update and delete a cookie. [![][img-demo]](https://streamich.github.io/react-use/?path=/story/side-effects-usecookie--demo)
@@ -115,6 +136,7 @@
   - [`usePermission`](./docs/usePermission.md) &mdash; query permission status for browser APIs.
     <br/>
     <br/>
+
 - [**Lifecycles**](./docs/Lifecycles.md)
   - [`useEffectOnce`](./docs/useEffectOnce.md) &mdash; a modified [`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect) hook that only runs once.
   - [`useEvent`](./docs/useEvent.md) &mdash; subscribe to events.

@@ -47,6 +47,7 @@
   "homepage": "https://github.com/streamich/react-use#readme",
   "dependencies": {
     "@types/js-cookie": "2.2.6",
+    "@uifabric/react-hooks": "^7.4.9",
     "@xobotyi/scrollbar-width": "1.9.5",
     "copy-to-clipboard": "^3.2.0",
     "fast-deep-equal": "^3.1.3",
@@ -102,7 +103,7 @@
     "husky": "4.2.5",
     "jest": "25.5.4",
     "jest-localstorage-mock": "2.4.2",
-    "keyboardjs": "2.6.3",
+    "keyboardjs": "^2.6.3",
     "lint-staged": "10.2.11",
     "markdown-loader": "5.1.0",
     "prettier": "2.0.5",

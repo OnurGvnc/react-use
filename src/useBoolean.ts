@@ -1,3 +1,1 @@
-import useBoolean from './useToggle';
-
-export default useBoolean;
+export { useBoolean as default } from '@uifabric/react-hooks/lib/useBoolean';
