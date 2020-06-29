@@ -1,6 +1,6 @@
 {
   "name": "@zedflowlab/react-use",
-  "version": "15.3.1-0",
+  "version": "15.3.2-0",
   "description": "Collection of React Hooks",
   "main": "lib/index.js",
   "module": "esm/index.js",
