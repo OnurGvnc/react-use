@@ -1,6 +1,6 @@
 {
-  "name": "react-use",
-  "version": "15.3.0",
+  "name": "@zedflowlab/react-use",
+  "version": "15.3.1-0",
   "description": "Collection of React Hooks",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -11,6 +11,14 @@
   ],
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedflowlab/npm-registry.git",
+    "directory": "/packages/packagename"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@zedflowlab"
+  },
   "scripts": {
     "start": "yarn storybook",
     "test": "jest --maxWorkers 2",
@@ -21,26 +29,24 @@
     "lint:types": "tsc --noEmit",
     "build:cjs": "tsc",
     "build:es": "tsc -m esNext --outDir esm",
-    "build": "yarn build:cjs && yarn build:es",
+    "//build": "yarn build:cjs && yarn build:es",
+    "build": "yarn build:es",
     "clean": "rimraf lib storybook-static esm",
     "storybook": "start-storybook -p 6008",
     "storybook:build": "build-storybook",
     "storybook:upload": "gh-pages -d storybook-static --git \"$(which git)\"",
     "storybook:clean": "rimraf storybook-static",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "pub": "npm version patch --force && npm publish"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint:types && lint-staged",
+      "//pre-commit": "yarn lint:types && lint-staged",
       "pre-push": "yarn lint && yarn clean && yarn build && yarn test"
     }
   },
   "author": "@streamich",
   "license": "Unlicense",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/streamich/react-use"
-  },
   "bugs": {
     "url": "https://github.com/streamich/react-use/issues"
   },
